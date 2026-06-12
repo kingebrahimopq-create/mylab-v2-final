@@ -10,9 +10,15 @@ export default defineConfig({
   server: {
     port: 3000,
   },
+  build: {
+    outDir: 'dist',
+  },
   resolve: {
     alias: {
       "@": path.resolve(__dirname, "./src"),
+      "@db": path.resolve(__dirname, "./db"),
+      "@contracts": path.resolve(__dirname, "./contracts"),
     },
   },
+  envDir: ".",
 });
