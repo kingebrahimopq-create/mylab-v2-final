@@ -1,3 +1,8 @@
+# IMPORTANT: To enable GitHub Pages deployment:
+# 1. Go to Repository Settings -> Pages
+# 2. Set Source to "GitHub Actions"
+# 3. Save the settings
+
 name: Build and Deploy to GitHub Pages
 
 on:
@@ -20,6 +25,8 @@ concurrency:
 jobs:
   build:
     runs-on: ubuntu-latest
+    env:
+      FORCE_JAVASCRIPT_ACTIONS_TO_NODE24: true
 
     steps:
     - uses: actions/checkout@v4
@@ -49,6 +56,8 @@ jobs:
     if: github.ref == 'refs/heads/main'
     needs: build
     runs-on: ubuntu-latest
+    env:
+      FORCE_JAVASCRIPT_ACTIONS_TO_NODE24: true
     environment:
       name: github-pages
       url: ${{ steps.deployment.outputs.page_url }}
