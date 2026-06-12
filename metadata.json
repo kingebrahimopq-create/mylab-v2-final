@@ -1,0 +1,6 @@
+{
+  "name": "MyLab V2",
+  "description": "نظام آمن لإدارة المختبرات الطبية وتتبع العينات والنتائج الموقعة رقمياً ببصمة SHA-256 وتشفير البيانات الحساسة.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

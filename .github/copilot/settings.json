@@ -1,0 +1,27 @@
+{
+  "name": "MyLab V2 Final",
+  "description": "منصة معملية عصرية تستخدم TypeScript وأحدث التقنيات",
+  "enabled": true,
+  "settings": {
+    "language": "TypeScript",
+    "codeQuality": {
+      "enforceTyping": true,
+      "requireDocumentation": true,
+      "requireTests": true
+    },
+    "aiAssistant": {
+      "enabled": true,
+      "features": [
+        "code-completion",
+        "error-detection",
+        "documentation-generation",
+        "test-generation",
+        "refactoring-suggestions"
+      ]
+    },
+    "documentation": {
+      "required": true,
+      "format": "JSDoc"
+    }
+  }
+}

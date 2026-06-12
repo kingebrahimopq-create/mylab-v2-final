@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&family=Space+Grotesk:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500;700&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Inter", system-ui, -apple-system, sans-serif;
+  --font-mono: "JetBrains Mono", monospace;
+  --font-display: "Space Grotesk", sans-serif;
+
+  /* Natural Tones custom color mappings override */
+  --color-slate-50: #f8f7f4;
+  --color-slate-100: #efebe3;
+  --color-slate-200: #e1ddd3;
+  --color-slate-300: #d8d4cb;
+  --color-slate-400: #8a887d;
+  --color-slate-500: #8a887d;
+  --color-slate-600: #6c6a5e;
+  --color-slate-700: #43423b;
+  --color-slate-800: #3f3e37;
+  --color-slate-900: #2d2c27;
+  --color-slate-950: #1c1c18;
+
+  --color-indigo-50: #efebe3;
+  --color-indigo-100: #e1ddd3;
+  --color-indigo-200: #d8d4cb;
+  --color-indigo-300: #a5a58d;
+  --color-indigo-400: #8a887d;
+  --color-indigo-500: #6b705c;
+  --color-indigo-600: #6b705c;
+  --color-indigo-700: #43423b;
+  --color-indigo-850: #2d2c27;
+  --color-indigo-900: #2d2c27;
+  --color-indigo-950: #1c1c18;
+
+  --color-emerald-50: #efebe3;
+  --color-emerald-100: #efebe3;
+  --color-emerald-200: #efebe3;
+  --color-emerald-300: #a5a58d;
+  --color-emerald-400: #a5a58d;
+  --color-emerald-500: #6b705c;
+  --color-emerald-600: #6b705c;
+  --color-emerald-700: #5c604e;
+  --color-emerald-800: #43423b;
+  --color-emerald-900: #2d2c27;
+  --color-emerald-950: #1c1c18;
+
+  /* Specific theme colors from Design HTML */
+  --color-natural-bg: #f8f7f4;
+  --color-natural-text: #43423b;
+  --color-natural-sidebar: #efebe3;
+  --color-natural-border: #e1ddd3;
+  --color-natural-sage: #6b705c;
+  --color-natural-sand: #a5a58d;
+  --color-natural-peach: #cb997e;
+  --color-natural-nude: #ddbea9;
+  --color-natural-coral: #e76f51;
+  --color-natural-basalt: #2d2c27;
+  --color-natural-basalt-border: #3f3e37;
+}
+
+body {
+  background-color: #f8f7f4;
+  color: #43423b;
+  font-family: "Inter", system-ui, -apple-system, sans-serif;
+  margin: 0;
+  height: 100%;
+}
+
